@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mediamend-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./mediamend/Dockerfile
+    dockerContext: ./mediamend
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: MEDIAMEND_DEMO
+        value: "1"

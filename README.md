@@ -1,2 +1,5 @@
-# mediamend
-Local AI media cleanup for creators: flag likely junk with explanations, move to a recoverable Bin, restore anytime.
+# MediaMend
+
+Local AI-assisted media triage for creators. The application source is in [`mediamend/`](./mediamend/), and the Render Blueprint deploys a public, read-only demo that only scans bundled synthetic sample media.
+
+For local setup, test instructions, and safety limitations, see [`mediamend/README.md`](./mediamend/README.md).
